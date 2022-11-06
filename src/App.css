@@ -149,14 +149,6 @@ input {
     height: 230vh;
   }
 
-  .nav-back {
-    background: blue;
-    margin: 5px;
-    padding: 5x;
-    color: #fff;
-    text-decoration: none;
-    font-size: 15px;
-  }
   .sub-main {
     display: flex;
     flex-wrap: wrap;
@@ -173,12 +165,13 @@ input {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
-
-
- 
-
-  
-
-
+  } 
 }
+
+ @media only screen and (max-width: 600px) {
+    .nav-back {
+      padding: 5px;
+      margin: 5px;
+      width: 9%
+    }
+  }
