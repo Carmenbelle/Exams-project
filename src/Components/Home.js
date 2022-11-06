@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        ‍<title>Pets - Products</title>‍
+        ‍<title>Voting - Platform</title>‍
         <meta
           name="description"
           content="It is a simple voting platform, it has a unique user experience and a good user interface as well. link:https://carmenbelle.netlify.app/"
