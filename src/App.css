@@ -3,9 +3,8 @@ body {
 }
 .nav-back {
   background: blue;
-  padding: 5px;
   width: 5%;
-  margin: 3px;
+  margin: 2px;
   text-align: center;
   color: #fff;
   padding: 5px;
@@ -20,13 +19,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
 }
 
 .sub-container {
   background: rgb(255,255,255);
   width: 80vw;
-  height: 85vh;
   box-shadow: 14px 0px 34px 19px rgba(0,0,0,0.1);
   padding-bottom: 20px;
   
@@ -42,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   box-sizing: "border-box";
+  margin-top: 5px;
 }
 
 figure {
@@ -51,7 +49,7 @@ figure {
   text-align: center;
   margin: 15px;
   min-width: 230px;
-  max-width: 310px;
+  max-width: 300px;
   box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.15);
   padding-bottom: 15px;
   box-sizing: "border-box";
@@ -71,7 +69,6 @@ figure .image {
   vertical-align: top;
   position: relative;
   border-radius: 50%;
-  /* max-width: 70%; */
 }
 
 figure figcaption {
@@ -144,9 +141,8 @@ input {
 
 @media only screen and (max-width: 1000px) {
   body {
-    background: rgb(243,244, 246);
-    padding-bottom: 30px;
-    height: 230vh;
+    padding-bottom: 490px;
+    
   }
 
   .sub-main {
@@ -156,7 +152,6 @@ input {
 
   .sub-container {
     width: 80vw;
-    height: 220vh;
     box-shadow: none;
   }
 
@@ -168,6 +163,18 @@ input {
   } 
 
   @media only screen and (max-width: 600px) {
+    body {
+      padding-bottom: 1020px;
+    }
+    .sub-main {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .sub-container {
+      width: 80vw;
+      box-shadow: none;
+    }
+
     .nav-back {
       padding: 5px;
       margin: 5px;
