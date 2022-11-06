@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 ## Hosted Project 
-### [Link](https://carmenbelle.netlify.app)
+### [Link](https://my-exams-project.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
