@@ -22,7 +22,7 @@ const ErrorTest = () => {
             value={errorTest}
             autoFocus
           />
-          {errorTest === "conflict" ? <AlertError /> : ""}
+          {errorTest.toLowerCase() === "conflict" ? <AlertError /> : ""}
         </div>
       </div>
     </>

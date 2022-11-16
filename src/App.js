@@ -1,5 +1,4 @@
 import "./App.css";
-// import { ErrorBoundary } from "react-error-boundary";
 import { ErrorBoundary } from "./Components/ErrorBoundary";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
@@ -23,3 +22,4 @@ function App() {
 }
 
 export default App;
+
